@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": ["es2018", "dom", "esnext"],
+    "target": "es2018",
+    "module": "ES2015",
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "strict": true,
+    "declaration": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node"],
+    "esModuleInterop": true,
+    "inlineSourceMap": false,
+    "experimentalDecorators": true
+  },
+  "exclude": ["example", "test.ts"]
+}
